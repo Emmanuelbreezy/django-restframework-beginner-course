@@ -55,11 +55,11 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
+# htmlcov/
 .tox/
 .nox/
-.coverage
-.coverage.*
+# .coverage
+# .coverage.*
 .cache
 nosetests.xml
 coverage.xml
@@ -149,5 +149,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/django
